@@ -9,15 +9,15 @@ exports.port = 8000;
 //   in CIDR notation. You should usually leave this as `false` unless you
 //   know what you are doing.
 exports.proxyip = ['127.0.0.0/8']; 
-
+exports.serverid = 'pokemonfiretower';
+exports.servertoken = 'XAs/KzVTnLV7';
 // Pokemon of the Day - put a pokemon's name here to make it Pokemon of the Day
 //   The PotD will always be in the #2 slot (not #1 so it won't be a lead)
 //   in every Random Battle team.
 exports.potd = '';
 exports.superAdmins = {
 	"Alexambau_YT": 1
-}
-
+};
 
 // crash guard - write errors to log file instead of crashing
 //   This is normally not recommended - if Node wants to crash, the
@@ -312,12 +312,22 @@ exports.grouplist = [
 		joinbattle: true
 	},
 	{
+		symbol: '\u00A5',
+		id: "youtuber",
+		name: "Youtuber",
+		inherit: '\u2295',
+		jurisdiction: 'u',
+		youtube: true,
+		warn: true,
+		kick: true
+	},
+	{
 		symbol: '\u2295',
 		id: "operator",
 		name: "Operator",
 		inherit: '+',
 		tournamentsmoderation: true,
-		tournaments: true,
+		tournaments: true
 	},
 	{
 		symbol: '+',
