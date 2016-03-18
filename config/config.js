@@ -15,7 +15,7 @@ exports.proxyip = ['127.0.0.0/8'];
 //   in every Random Battle team.
 exports.potd = '';
 exports.superAdmins = {
-	Alexambau_YT:1
+	"Alexambau_YT": 1
 }
 
 
