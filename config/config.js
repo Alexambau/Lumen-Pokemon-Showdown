@@ -8,15 +8,15 @@ exports.port = 8000;
 //   of strings. Each string should be either an IP address or a subnet given
 //   in CIDR notation. You should usually leave this as `false` unless you
 //   know what you are doing.
-exports.proxyip = ['127.0.0.0/8']; 
-exports.serverid = 'pokemonfiretower';
-exports.servertoken = 'XAs/KzVTnLV7';
+exports.proxyip = ['127.0.0.0/8'];
+
+
 // Pokemon of the Day - put a pokemon's name here to make it Pokemon of the Day
 //   The PotD will always be in the #2 slot (not #1 so it won't be a lead)
 //   in every Random Battle team.
 exports.potd = '';
 exports.superAdmins = {
-	"Alexambau_YT": 1
+	"Wolloy": 1
 };
 
 // crash guard - write errors to log file instead of crashing
